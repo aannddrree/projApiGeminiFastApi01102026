@@ -1,0 +1,78 @@
+# === Variáveis de Ambiente e Segredos ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# === Ambientes Virtuais (Virtual Environments) ===
+venv/
+.venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# === Cache e Arquivos Temporários do Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Testes e Cobertura (Pytest, Coverage) ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# === Linters e Formatadores (Ruff, Mypy, Black) ===
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.metastore/
+
+# === Logs e Bancos de Dados Locais ===
+*.log
+*.sqlite
+*.sqlite3
+
+# === Configurações de IDEs e Editores ===
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# === Arquivos do Sistema Operacional ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
